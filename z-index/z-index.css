@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    position: absolute;
+}
+
+.blue {
+    background-color: blue;
+    z-index: 1;
+}
+
+.red {
+    background-color: red;
+    z-index: 2;
+}
+
+.green {
+    background-color: green;
+    z-index: 0;
+}
