@@ -1,0 +1,36 @@
+body{
+    background-color: #83e0e08e;
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    .main{
+        background-color: hsl(33, 40%, 82%);
+        text-align: center ;
+        border: 1px solid;
+        border-radius: 20px;
+        margin: 70px 70px;
+        width: 1200px;
+    }
+    #hi{
+        /* padding-bottom: 10px ; */
+        width: 100%;
+        background-color: #58e6e6;
+        text-align: center ;
+        position: absolute;            /*the element will not stay in the line, it will be removed from that line*/
+        top: 0px;
+        left:0px;
+        border-radius: 20px;
+        border: 1px solid;
+    }
+    /* .container{
+        margin-top: 50px;
+
+    } */
+    .slogan{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 900;
+    }
+}
+
+
+

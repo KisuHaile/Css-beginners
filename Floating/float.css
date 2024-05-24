@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(182, 182, 129);
+    .main{
+        margin: 30px;
+        .heading{
+           margin: 10px;
+           background-color: #717199;
+           text-align: center;
+           border-radius: 20px;
+           padding: 20px;
+           position: fixed;
+           top: 0;
+           left: 0;
+           right: 0;
+        }
+        .image1{
+            width: 400px;
+            margin: 0px 30px;
+            float: left;
+            border-radius: 20px;
+
+        }
+        .text1{
+            margin: 170px 20px;
+            font-size: 20px;
+        }
+        .image2{
+            width: 400px;
+            margin: 20px;
+            float: right;
+            border-radius: 20px;
+
+        }
+        .text2{
+            margin: 30px 20px;
+            font-size: 20px;
+        }
+    }
+}
